@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Weather Chat!</title>
+</head>
+<body>
+  <div class="page-header">
+    <img src="wchat.jpg"  class="weather-heading">
+      <form class="get-temp-form">
+          <div class="form-row">
+            <div class="form-group col-md-11">
+              <input type="text"  class="form-control weather-input-text" placeholder="Enter City">
+            </div>  
+            <div class="form-group col-md-1">
+              <button type="submit" class="btn btn-primary get-temp-btn ">Get Temp</button>
+            </div>
+          </div>
+      </form>
+      <hr class="divider">
+  </div>
+<!-- <div class="card-columns"> -->
+<div class="card-main">
+  <div class="card  text-white bg-dark " >
+      <div class="card-header">
+          Tel Aviv
+          <button type="button" class="btn btn-link mbtn-trash"><i class="fa fa-trash"></i></button>
+
+      </div>
+      <div class="card-body ">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+    </div>
+    <div class="card-footer ">
+        <!-- <button type="button" class="btn btn-outline-dark">Dark</button> -->
+
+      <button type="button" class="btn btn-outline-primary mbtn-like">  <i class="fa  fa-thumbs-up"></i></button>
+      <button type="button" class="btn btn-outline-success  mbtn-comment">Comment...</button>
+      <button type="button" class="btn btn-outline-info mbtn-share">Share</button>
+     </div>
+  </div>
+  <div class="card-with-comments mb-3">
+    <div class="card text-white bg-dark " >
+        <div class="card-header">
+            Tel Aviv
+        </div>
+      <div class="card-body ">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+      </div>
+      <div class="card-footer ">
+          <!-- <button type="button" class="btn btn-outline-dark">Dark</button> -->
+
+        <button type="button" class="btn btn-outline-primary mbtn-like">Like!</button>
+        <button type="button" class="btn btn-outline-success  mbtn-comment">Comment...</button>
+        <button type="button" class="btn btn-outline-info mbtn-share">Share</button>
+        
+        <div class="form ">
+          <div class="form-group">
+            <input type="text" class="form-control text-white bg-success comment-text-field"  aria-describedby="commentHelp" placeholder="Write a comment...">
+            <small id="commentHelp" class="form-text text-muted">press enter to post</small>
+          </div>
+        </div>
+      
+      
+      </div>
+    
+    </div>
+    <div class="comments-container">
+      <div class="card  text-white bg-secondary ">
+        <div class="card-body ">
+          <div >get: text input here<button type="button " class="btn btn-outline-success replay-btn"> Replay  </button></div>
+        </div>
+      </div>
+      <div class="card  text-white bg-dark ml-4 ">
+        <div class="card-body ">
+          <input >get: text input here<button type="button " class="btn btn-outline-success replay-btn"> Replay  </button></div>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+<!-- </div> -->
+    <script type="text/javascript" src="jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
